@@ -1,0 +1,19 @@
+.imagem{
+  width: 150px;
+  height: 150px;
+  border: 2px solid blue;
+  transition: width 3s;
+  
+}
+
+.imagem:hover{
+
+   width:300px;
+   height:300px;
+  
+}
+
+
+.imagem {
+  transition: width 3s, height 3s;
+}
